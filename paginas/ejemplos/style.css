@@ -1,0 +1,19 @@
+body{
+    background-color: ghostwhite;
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 15em;
+    border-radius: 14px;
+}
+
+button{
+    margin-top: 7em;
+}
+
+a{
+    text-decoration: none !important;
+}
