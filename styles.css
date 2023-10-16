@@ -38,3 +38,11 @@ h5{
 .card:hover{
         transform: scale(1.02); 
 }
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
