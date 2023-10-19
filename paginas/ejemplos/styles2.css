@@ -1,5 +1,4 @@
 body{
-    background-color: ghostwhite;
     background-image: url(./img/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,11 +9,19 @@ img{
     border-radius: 14px;
 }
 
-button{
+.botonRecarga{
     margin-top: 7em;
 }
 
 a{
     text-decoration: none !important;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
 }
 
