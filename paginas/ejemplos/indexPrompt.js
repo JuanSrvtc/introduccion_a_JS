@@ -17,8 +17,8 @@ console.log("Edad: " + edad);
 
 //VARIABLES:
 //Variables que usaremos en los bloques "IF_ELSE":
-const bienvenida = "<h1 class='text-center mb-3 p-3 fw-bold'>¡Bienvenid@ " + nombre + "!</h1> <br>  <h3 class='mb-4 position-absolute start-50 translate-middle alert alert-success fst-italic'>Puedes ver esta página</h3> <br> <img class='mt-5 mx-auto d-block img-fluid' src='./img/ok.jpg' alt='ok'> <br> <a href='../alertsYpromps.html' class=' position-absolute top-75 start-50 mt-2 translate-middle text-center fw-bold btn btn-success text-white'>VOLVER</a>";
-const rechazada  = "<h1 class='text-center mb-3 p-3 fw-bold'>Lo sentimos " + nombre + "!</h1> <br>  <h3 class='mb-4 position-absolute start-50 translate-middle alert alert-danger fst-italic'>No puedes ver esta página</h3> <br> <img class='mt-5 mx-auto d-block img-fluid' src='./img/error.jpg' alt='error'> <br> <a href='../alertsYpromps.html' class=' position-absolute top-75 start-50 mt-2 translate-middle text-center fw-bold btn btn-danger text-white'>VOLVER</a>";
+const bienvenida = "<h1 class='text-center mb-3 p-3 fw-bold'>¡Bienvenid@ " + nombre + "!</h1> <br>  <h3 class='mb-4 position-absolute start-50 translate-middle alert alert-success fst-italic'>Puedes ver esta página</h3> <br> <img class='mt-5 mx-auto d-block img-fluid' src='../../assets//ok.jpg' alt='ok'> <br> <a href='../alertsYpromps.html' class=' position-absolute top-75 start-50 mt-2 translate-middle text-center fw-bold btn btn-success text-white'>VOLVER</a>";
+const rechazada  = "<h1 class='text-center mb-3 p-3 fw-bold'>Lo sentimos " + nombre + "!</h1> <br>  <h3 class='mb-4 position-absolute start-50 translate-middle alert alert-danger fst-italic'>No puedes ver esta página</h3> <br> <img class='mt-5 mx-auto d-block img-fluid' src='../../assets/error.png' alt='error'> <br> <a href='../alertsYpromps.html' class=' position-absolute top-75 start-50 mt-2 translate-middle text-center fw-bold btn btn-danger text-white'>VOLVER</a>";
 //Variables que usaremos en Console.log()
 const accesoLogrado = "Logrado";
 const accesoDenegado = "Denegado";

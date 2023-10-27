@@ -34,20 +34,20 @@ if (persona.edad >= 18){//Es mayor o igual que 18?.
     alert(persona.nombre + ", eres mayor de edad, puedes entrar...");
     document.write(bienvenida);
     console.log("Status: Mayor de edad");
-    document.write('<img class="mt-5 mx-auto d-block img-fluid" src="./img/ok.jpg" alt="ok">');
+    document.write('<img class="mt-5 mx-auto d-block img-fluid" src="../../assets/ok.jpg" alt="ok">');
     console.log("Acceso: " + accesoLogrado);
 }
 //Se considera que si tiene 17,5 o más años puede entrar
 else if(persona.edad >= 17.5 && edadFloat <18){ 
     alert(persona.nombre + ", estas cerca de la mayoria de edad, puedes entrar...");
     document.write(bienvenida);    
-    document.write('<img class="mt-5 mx-auto d-block img-fluid" src="./img/ok.jpg" alt="ok">');
+    document.write('<img class="mt-5 mx-auto d-block img-fluid" src="../../assets/ok.jpg" alt="ok">');
     console.log("Acceso: " + accesoLogrado);
 }
 else{
     alert(persona.nombre + ", eres menor de edad, no puedes entrar...");
     document.write(rechazada); 
     console.log("Status: Menor de edad");
-    document.write('<img class="mt-5 mx-auto d-block img-fluid" src="./img/error.jpg" alt="error">');
+    document.write('<img class="mt-5 mx-auto d-block img-fluid" src="../../assets/error.png" alt="error">');
     console.log("Acceso: " + accesoDenegado);
 } 
